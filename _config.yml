@@ -1,0 +1,11 @@
+host: 127.0.0.1
+port: 4004
+url: "https://www..cz"
+future: true
+highlighter: true
+exclude: ['Rakefile.rb', 'CNAME', 'README.md', 'config.codekit3', 'Gemfile*', 'less', 'js/global.js']
+
+collections:
+   slides:
+     output: false
+     permalink: /:collection/:path/

@@ -1,0 +1,7 @@
+{% include head.html %}
+{% for slide in site.slides %}
+<section
+{% if slide.align %} class="section-align-{{ slide.align }}"{% endif %}>
+	{{ slide.content }}
+</section>{% endfor %}
+{% include foot.html %}
